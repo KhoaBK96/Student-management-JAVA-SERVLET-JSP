@@ -1,0 +1,78 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+   <servlet>
+  	<servlet-name>ListStudentController</servlet-name>
+  	<display-name>ListStudentController</display-name>
+  	<description></description>
+  	<servlet-class>com.bia.web.controller.ListStudentController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddStudentController</servlet-name>
+  	<display-name>AddStudentController</display-name>
+  	<description></description>
+  	<servlet-class>com.bia.web.controller.AddStudentController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetStudentController</servlet-name>
+  	<display-name>GetStudentController</display-name>
+  	<description></description>
+  	<servlet-class>com.bia.web.controller.GetStudentController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteStudentController</servlet-name>
+  	<display-name>DeleteStudentController</display-name>
+  	<description></description>
+  	<servlet-class>com.bia.web.controller.DeleteStudentController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListClassController</servlet-name>
+  	<display-name>ListClassController</display-name>
+  	<description></description>
+  	<servlet-class>com.bia.web.controller.ListClassController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddClassController</servlet-name>
+  	<display-name>AddClassController</display-name>
+  	<description></description>
+  	<servlet-class>com.bia.web.controller.AddClassController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteClassController</servlet-name>
+  	<display-name>DeleteClassController</display-name>
+  	<description></description>
+  	<servlet-class>com.bia.web.controller.DeleteClassController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>ListStudentController</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddStudentController</servlet-name>
+  	<url-pattern>/AddStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetStudentController</servlet-name>
+  	<url-pattern>/GetStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteStudentController</servlet-name>
+  	<url-pattern>/DeleteStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListClassController</servlet-name>
+  	<url-pattern>/ListClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddClassController</servlet-name>
+  	<url-pattern>/AddClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteClassController</servlet-name>
+  	<url-pattern>/DeleteClass</url-pattern>
+  </servlet-mapping>
+</web-app>
